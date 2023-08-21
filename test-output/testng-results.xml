@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-21T09:38:06 IST" name="RestFullBookingAPI" finished-at="2023-08-21T09:38:14 IST" duration-ms="8398">
+    <groups>
+    </groups>
+    <test started-at="2023-08-21T09:38:06 IST" name="CRUD" finished-at="2023-08-21T09:38:14 IST" duration-ms="8398">
+      <class name="api.TestClassAPi">
+        <test-method signature="restBookerCreate(org.testng.ITestContext)[pri:1, instance:api.TestClassAPi@368247b9]" started-at="2023-08-21T09:38:06 IST" name="restBookerCreate" finished-at="2023-08-21T09:38:09 IST" duration-ms="3220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50378a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restBookerCreate -->
+        <test-method signature="createToken(org.testng.ITestContext)[pri:2, instance:api.TestClassAPi@368247b9]" started-at="2023-08-21T09:38:09 IST" name="createToken" finished-at="2023-08-21T09:38:10 IST" duration-ms="1298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50378a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createToken -->
+        <test-method signature="restBooker_Get(org.testng.ITestContext)[pri:3, instance:api.TestClassAPi@368247b9]" started-at="2023-08-21T09:38:10 IST" name="restBooker_Get" finished-at="2023-08-21T09:38:12 IST" duration-ms="1285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50378a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restBooker_Get -->
+        <test-method signature="restBooker_Put(org.testng.ITestContext)[pri:4, instance:api.TestClassAPi@368247b9]" started-at="2023-08-21T09:38:12 IST" name="restBooker_Put" finished-at="2023-08-21T09:38:13 IST" duration-ms="1286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50378a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restBooker_Put -->
+        <test-method signature="restBooker_Delete(org.testng.ITestContext)[pri:5, instance:api.TestClassAPi@368247b9]" started-at="2023-08-21T09:38:13 IST" name="restBooker_Delete" finished-at="2023-08-21T09:38:14 IST" duration-ms="1256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50378a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restBooker_Delete -->
+      </class> <!-- api.TestClassAPi -->
+    </test> <!-- CRUD -->
+  </suite> <!-- RestFullBookingAPI -->
+</testng-results>
